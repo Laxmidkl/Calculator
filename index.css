@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(45, 41, 41);
+}
+
+
+.cal {
+    height: 530px;
+    width: 350px;
+    /* background-color: gray;   */
+    margin: 60px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 9px -7px 13px;
+}
+
+.num {
+    width: 346px;
+    height: 75px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    outline: none;
+    background: transparent;
+    border: none;
+    /* background-color: gray; */
+    position: relative;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+button {
+    border: none;
+    /* height: 60px; */
+    width: 58px;
+    border-radius: 70px;
+    padding: 16px;
+    margin: 13px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    background: transparent;
+    box-shadow:0px 0px 10px;
+
+}
+.a button{
+    color: greenyellow;
+}
+
+.aa{
+    color: greenyellow;
+}

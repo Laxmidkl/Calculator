@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+
+    <div class="cal">
+        <input class="num" id="display" value="0" type="text" readonly >
+        <div class="cul">
+
+            <div class="a">
+             <button onclick="Clear()">AC</button>
+             <button>DE</button>
+             <button>%</button>
+             <button onclick="operator('/')">/</button>
+            </div>
+
+
+            <div class="b">
+                <button onclick="CalculatedValue('7')">7</button>
+                <button onclick="CalculatedValue('8')">8</button>
+                <button onclick="CalculatedValue('9')">9</button>
+                <button class="aa" onclick="operator('*')">*</button>
+            </div>
+
+            <div class="c">
+                <button onclick="CalculatedValue('4')">4</button>
+                <button onclick="CalculatedValue('5')">5</button>
+                <button onclick="CalculatedValue('6') ">6</button>
+                <button class="aa" onclick="operator('-')">-</button>
+            </div>
+
+            <div class="d">
+                <button onclick="CalculatedValue('1') ">1</button>
+                <button onclick="CalculatedValue('2') ">2</button>
+                <button onclick="CalculatedValue('3') ">3</button>
+                <button class="aa" onclick="operator('+')">+</button>
+            </div>
+
+            <div class="e">
+                <button onclick="CalculatedValue('00') ">00</button>
+                <button onclick="CalculatedValue('0') ">0</button>
+                <button onclick="CalculatedValue('.')">.</button>
+                <button class="aa" onclick="output()">=</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
